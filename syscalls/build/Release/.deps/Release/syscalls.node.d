@@ -1,0 +1,1 @@
+cmd_Release/syscalls.node := ./gyp-mac-tool flock ./Release/linker.lock g++ -shared -Wl,-search_paths_first -mmacosx-version-min=10.5 -arch x86_64 -L./Release -install_name /usr/local/lib/syscalls.node  -o Release/syscalls.node Release/obj.target/syscalls/src/syscalls.o -undefined dynamic_lookup
