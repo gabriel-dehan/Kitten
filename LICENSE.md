@@ -1,0 +1,1 @@
+Based on http://truthabouteventloops.com/ material. Mainly Marc-Andre Cournoyer's syscalls node module.
