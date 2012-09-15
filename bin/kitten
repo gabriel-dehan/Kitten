@@ -1,0 +1,5 @@
+var KittenServer = require('../src/server.js');
+
+KittenServer.create(function(request) {
+    return "Your requested : " + request.url + "\n" + "You got " + request.url + "\n";
+}).listen(9000);
